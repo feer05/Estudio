@@ -1,0 +1,26 @@
+ejercico 2
+package Ejercicio;
+
+public class coche {
+	
+	public static void main(String[]args) {
+		Coche misPuertas= new Coche();
+		
+		misPuertas.sumarPuertas();
+		misPuertas.sumarPuertas();
+		misPuertas.sumarPuertas();
+		misPuertas.sumarPuertas();
+		System.out.println(misPuertas.puertas);
+	
+
+
+  }
+	
+}
+  class Coche {
+	  public int puertas = 0;
+	  
+	  public void sumarPuertas() {
+		  this.puertas ++;
+	  }
+	  
